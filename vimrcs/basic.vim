@@ -380,3 +380,8 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+"Added by Zahid"
+"Click support in Mac for NERDTree"
+set mouse=a
+let g:NERDTreeMouseMode=3
