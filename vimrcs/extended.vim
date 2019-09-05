@@ -172,3 +172,8 @@ endfunc
 func! CurrentFileDir(cmd)
     return a:cmd . " " . expand("%:p:h") . "/"
 endfunc
+"Custom - Added by Zahid"
+"Enable click in NERDTree Mac
+"""
+set mouse=a
+let g:NERDTreeMouseMode=3
