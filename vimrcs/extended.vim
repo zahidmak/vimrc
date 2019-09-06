@@ -177,3 +177,6 @@ endfunc
 """
 set mouse=a
 let g:NERDTreeMouseMode=3
+
+"Open NERDTree on the left"
+let g:NERDTreeWinPos = "left"
